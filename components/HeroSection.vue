@@ -9,9 +9,9 @@
         alt="Couple on beach"
         class="w-full h-full object-cover"
       />
-      <div class="absolute inset-0 bg-stone-950/60" />
+      <div class="absolute inset-0 bg-black/60" />
       <div
-        class="absolute inset-0 bg-gradient-to-t from-stone-950 via-transparent to-stone-950/30"
+        class="absolute inset-0 bg-gradient-to-t from-black via-transparent to-black/30"
       />
     </div>
 
@@ -19,7 +19,7 @@
     <div class="relative z-10 text-center px-6">
       <p
         ref="subtitleRef"
-        class="text-gold-400/70 text-xs md:text-sm tracking-[0.5em] uppercase mb-6 opacity-0"
+        class="text-[#C8A2C8] text-xs md:text-sm tracking-[0.5em] uppercase mb-6 opacity-0"
         :class="{ 'animate-fade-in': isLoaded }"
         style="animation-delay: 0.3s"
       >
@@ -28,12 +28,12 @@
 
       <h1
         ref="titleRef"
-        class="font-serif text-6xl md:text-8xl lg:text-9xl text-cream-100 tracking-wide mb-4 opacity-0"
+        class="font-serif text-6xl md:text-8xl lg:text-9xl text-[#6B7B3D] tracking-wide mb-4 opacity-0"
         :class="{ 'animate-scale-in': isLoaded }"
         style="animation-delay: 0.5s"
       >
         <span class="inline-block">Tems</span>
-        <span class="text-gold-400 mx-2 md:mx-4">&</span>
+        <span class="text-[#C8A2C8] mx-2 md:mx-4">&</span>
         <span class="inline-block">Dave</span>
       </h1>
 
@@ -44,11 +44,11 @@
         style="animation-delay: 0.9s"
       >
         <p
-          class="text-cream-200/80 font-serif text-lg md:text-xl tracking-[0.2em] mt-8"
+          class="text-white/80 font-serif text-lg md:text-xl tracking-[0.2em] mt-8"
         >
-          September 20, 2026
+          July 18, 2026
         </p>
-        <p class="text-cream-300/50 text-sm tracking-[0.3em] uppercase mt-2">
+        <p class="text-white/50 text-sm tracking-[0.3em] uppercase mt-2">
           Lagos, Nigeria
         </p>
       </div>
@@ -60,11 +60,11 @@
         style="animation-delay: 1.5s"
       >
         <div class="flex flex-col items-center gap-2">
-          <span class="text-cream-300/40 text-xs tracking-[0.3em] uppercase"
-            >Scroll</span
-          >
+          <span class="text-white/40 text-xs tracking-[0.3em] uppercase">
+            Scroll
+          </span>
           <div
-            class="w-px h-8 bg-gradient-to-b from-gold-400/50 to-transparent animate-pulse-slow"
+            class="w-px h-8 bg-gradient-to-b from-[#6B7B3D]/50 to-transparent animate-pulse-slow"
           />
         </div>
       </div>

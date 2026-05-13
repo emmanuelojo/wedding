@@ -1,7 +1,7 @@
 <template>
   <section
     ref="mainContainer"
-    class="relative h-screen w-full overflow-hidden bg-[#FDFBF7] flex items-center justify-center"
+    class="relative h-screen w-full overflow-hidden bg-f-cream flex items-center justify-center"
   >
     <div
       ref="backgroundContent"

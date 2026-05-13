@@ -5,10 +5,10 @@
 <script setup lang="ts">
 useHead({
   htmlAttrs: {
-    lang: 'en'
+    lang: "en",
   },
   bodyAttrs: {
-    class: 'bg-stone-950'
-  }
-})
+    class: "bg-f-cream",
+  },
+});
 </script>
